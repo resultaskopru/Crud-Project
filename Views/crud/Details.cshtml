@@ -1,13 +1,13 @@
 ﻿@model Crud_Project.Models.crudtablo
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Personel Bİlgileri" ;
 }
 
-<h2>Details</h2>
+<h2 class="text-center">AYRINTILAR</h2>
 
 <div>
-    <h4>crudtablo</h4>
+    <h4 class="text-info">Personel Bilgileri</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -37,6 +37,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Geri Dön", "Index")
 </p>

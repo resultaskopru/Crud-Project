@@ -15,14 +15,14 @@ namespace Crud_Project.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Bir Mvc Projesi.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "resultaskpru@gmail.com";
 
             return View();
         }
